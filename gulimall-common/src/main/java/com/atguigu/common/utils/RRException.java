@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package com.atguigu.common.exception;
+package com.atguigu.common.utils;
 
 /**
  * 自定义异常

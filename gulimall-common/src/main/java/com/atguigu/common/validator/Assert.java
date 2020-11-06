@@ -8,7 +8,7 @@
 
 package com.atguigu.common.validator;
 
-import com.atguigu.common.exception.RRException;
+import com.atguigu.common.utils.RRException;
 import org.apache.commons.lang.StringUtils;
 
 /**

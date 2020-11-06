@@ -38,6 +38,14 @@ public class CouponController {
     @Value("${user.age}")
     private Integer age;
 
+
+    @RequestMapping("/member/list")
+    public R membercoupons() {
+        CouponEntity couponEntity = new CouponEntity();
+        couponEntity.setCouponName("100 for 10 off");
+        return R.ok().put("coupons", Arrays.asList(couponEntity));
+    }
+
     @RequestMapping("/test")
     public R test() {
         return R.ok().put("name", name).put("age", age);
