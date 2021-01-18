@@ -2,7 +2,9 @@ package com.atguigu.common.exception;
 
 public enum BizCodeEnum {
     UNKNOWN_EXCEPTION(10000, "Unknown error in the system"),
-    VALID_EXCEPTION(10001, "Parameter Authentication Failure");
+    VALID_EXCEPTION(10001, "Parameter Authentication Failure"),
+    PRODUCT_UP_EXCEPTION(11000, "Product up error");
+
 
     private int code;
     private String message;
